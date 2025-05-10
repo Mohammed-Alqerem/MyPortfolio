@@ -1,0 +1,172 @@
+nav {
+  a {
+    position: relative;
+  }
+  a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0%;
+    height: 3px;
+    background-color: rgba(0, 123, 255, 0.6);
+    transition: width 0.3s ease-in-out;
+    border-radius: 5px;
+    -webkit-transition: width 0.3s ease-in-out;
+    -moz-transition: width 0.3s ease-in-out;
+    -ms-transition: width 0.3s ease-in-out;
+    -o-transition: width 0.3s ease-in-out;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  }
+  a:hover::after {
+    width: 100%;
+  }
+}
+
+header {
+  img {
+    width: 50%;
+    box-shadow: 0 0 60px rgba(0, 123, 255, 0.8),
+      0 0 100px rgba(0, 123, 255, 0.6);
+    overflow: hidden;
+  }
+  .container {
+    margin-top: 50px;
+    div {
+      h1 {
+        font-size: 65px;
+      }
+      p {
+        width: 90%;
+      }
+    }
+  }
+}
+
+/* about section */
+
+.about-section {
+  img {
+    width: 50%;
+    overflow: hidden;
+    box-shadow: 0 0 60px rgba(0, 123, 255, 0.8),
+      0 0 100px rgba(0, 123, 255, 0.6);
+  }
+  .container {
+    .sub-content {
+      span {
+        color: rgba(0, 123, 255, 0.8);
+      }
+    }
+  }
+}
+
+/* service section */
+
+.service-section {
+  .container {
+    .card {
+      box-shadow: 0 0 20px rgba(0, 123, 255, 0.8),
+        0 0 50px rgba(0, 123, 255, 0.6);
+      color: white;
+      border: 2px solid rgba(0, 123, 255, 0.8);
+      background-color: rgba(19, 18, 18, 0.374);
+      border-radius: 20px;
+      -webkit-border-radius: 20px;
+      -moz-border-radius: 20px;
+      -ms-border-radius: 20px;
+      -o-border-radius: 20px;
+      &:hover {
+        transform: scale(1.05);
+        transition: transform 0.5s ease-in-out;
+        -webkit-transform: scale(1.05);
+        -moz-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        -o-transform: scale(1.05);
+        -webkit-transition: transform 0.5s ease-in-out;
+        -moz-transition: transform 0.5s ease-in-out;
+        -ms-transition: transform 0.5s ease-in-out;
+        -o-transition: transform 0.5s ease-in-out;
+      }
+      .cards {
+        padding-top: 50px;
+        padding-bottom: 30px;
+      }
+    }
+  }
+}
+
+/* project-section */
+
+.project-section {
+  .container {
+    img {
+      border-radius: 20px;
+      min-height: 180px;
+      min-width: 240px;
+      margin-bottom: 20px;
+      -webkit-border-radius: 20px;
+      -moz-border-radius: 20px;
+      -ms-border-radius: 20px;
+      -o-border-radius: 20px;
+    }
+    .card {
+      box-shadow: 0 0 20px rgba(0, 123, 255, 0.8),
+        0 0 50px rgba(0, 123, 255, 0.6);
+      color: white;
+      border: 2px solid rgba(0, 123, 255, 0.8);
+      background-color: rgba(19, 18, 18, 0.374);
+      border-radius: 20px;
+      -webkit-border-radius: 20px;
+      -moz-border-radius: 20px;
+      -ms-border-radius: 20px;
+      -o-border-radius: 20px;
+
+      .card-group {
+        a {
+          i {
+            color: wheat;
+            border-radius: 50%;
+            box-shadow: 0 0 2px 5px rgba(0, 123, 255),
+              0 0 80px rgba(0, 123, 255);
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+          }
+        }
+      }
+      &:hover {
+        transform: scale(1.05);
+        transition: transform 0.5s ease-in-out;
+        -webkit-transform: scale(1.05);
+        -moz-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        -o-transform: scale(1.05);
+        -webkit-transition: transform 0.5s ease-in-out;
+        -moz-transition: transform 0.5s ease-in-out;
+        -ms-transition: transform 0.5s ease-in-out;
+        -o-transition: transform 0.5s ease-in-out;
+      }
+    }
+  }
+}
+
+/* contact section */
+.contact-section {
+  span {
+    color: rgba(0, 123, 255, 0.8);
+  }
+
+  form {
+    width: 50%;
+    margin: auto;
+  }
+}
+
+::placeholder {
+  color: rgba(240, 255, 255, 0.578) !important;
+}

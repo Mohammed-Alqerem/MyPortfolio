@@ -1,0 +1,103 @@
+@media screen and (max-width: 1024px)  {
+       header{
+        .container{
+            
+            flex-direction: column-reverse !important;
+          
+            
+                div{
+                 
+                    text-align:center ;
+                    .link-icon-link{ 
+                       justify-content: space-evenly;
+                    
+                    }
+                    p{
+                        font-size: 20px;
+                    }
+                }
+                img{
+                   
+                    width: 100%;
+                    margin-bottom: 30px;
+                     
+                }
+            
+           
+
+        }
+       }
+
+
+       /* about-section  */
+
+       .about-section {
+        
+        .container{
+            margin-top: 20px;
+            flex-direction: column;
+            img{
+                 min-width: 250px;
+                width: 100%;
+                
+            }
+             .sub-content{
+            text-align: center;
+            h1{
+                margin: auto;
+                text-align: center;
+                font-size: 60px;
+            }
+        }
+       }
+}
+    .contact-section{
+  
+      
+form  {
+    width: 100% !important;
+    
+  }
+}
+}
+
+
+
+@media screen and (max-width: 620px){
+    .project-section .card , .service-section .card{
+        margin: auto !important;
+        width: 100% !important;
+        padding: 30px;
+
+        img{
+            display: none;
+        }
+        a{
+            margin-top: 20px;
+        }
+
+
+    }
+}
+
+@media screen and (max-width: 576px){
+    .project-section .card , .service-section .card{
+        width: 100% !important;
+        text-align: center;
+        .card-group{
+            flex-direction: column !important;
+            
+        }
+        .card-body .cards{
+            min-width: 180px !important;
+            max-width: 200px !important;
+            width: 100% !important;
+            height: auto !important;
+            margin: auto !important;
+        }
+        
+
+    }
+
+}
+
