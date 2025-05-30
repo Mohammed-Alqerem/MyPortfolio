@@ -100,4 +100,10 @@ form  {
     }
 
 }
+@media screen and (max-width: 470px){
+    .project-section .card , .service-section .card{
+        padding: 5px !important;
+    }
+
+}
 
